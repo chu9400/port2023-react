@@ -114,20 +114,18 @@ const Port = () => {
 
         <div className="port__wrap">
           {portText.map((port, key)=>{
-              return(
-                <article className={`port__item p${key + 1}`} key={key}>
-                  <span className="num">{port.num}.</span>
-                  <a href={port.code} className="link" target="_blank" rel="noreferrer">
-                    <img src={port.img} alt={port.name} />
-                  </a>
-                  <h3 className="title">{port.title}</h3>
-                  <p className="desc">{port.desc}</p>
-                  <a href={port.view} className="site" target="_blank" rel="noreferrer" >사이트 보기</a>
-                </article>
-              )
-            })}
-          
-
+            return(
+              <article className={`port__item p${key + 1}`} key={key}>
+                <span className="num">{port.num}.</span>
+                <a href={port.code} className="link" target="_blank" rel="noreferrer">
+                  <img src={port.img} alt={port.name} />
+                </a>
+                <h3 className="title">{port.title}</h3>
+                <p className="desc">{port.desc}</p>
+                <a href={port.view} className="site" target="_blank" rel="noreferrer" >사이트 보기</a>
+              </article>
+            )
+          })}
         </div>
 
       </div>
