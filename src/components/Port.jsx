@@ -25,7 +25,7 @@ const Port = () => {
         scrub: 1,
         invalidateOnRefresh: true,
         anticipatePin: 1,
-        markers: true,
+        /* markers: true, */
       }
     });
 

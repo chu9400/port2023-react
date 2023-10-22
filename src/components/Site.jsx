@@ -6,7 +6,7 @@ const Site = () => {
     <section id="site">
       <div className="site__inner">
         <h2 className="site__title">
-          Site Coding <em>나의 작업물</em>
+          Site Coding
         </h2>
         <div className="site__wrap">
 
@@ -23,8 +23,8 @@ const Site = () => {
                   {site.title}
                 </h3>
                 <div className="btn">
-                  <a href={site.code}>code</a>
-                  <a href={site.view}>view</a>
+                  <a href={site.code} target="_blank" rel="noreferrer noopener">code</a>
+                  <a href={site.view} target="_blank" rel="noreferrer noopener">view</a>
                 </div>
                 <div className="info">
                   <span>{site.info[0]}</span>
