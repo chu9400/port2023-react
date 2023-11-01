@@ -8,17 +8,11 @@ function lenis () {
     })
 
     function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
+        lenis.raf(time)
+        requestAnimationFrame(raf)
     }
 
     requestAnimationFrame(raf)
-
-    /*     
-    lenis.on("scroll", (e) => {
-    console.log(e)
-    }) 
-    */
     
 }
 
