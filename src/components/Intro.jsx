@@ -25,7 +25,7 @@ const Intro = () => {
             <div>{introText.desc[2]}</div>
           </div>
           <div className="img">
-            <img src={about} alt="내사진" />
+            <img src={about} alt="최한울사진" />
           </div>
         </div>
         <div className="intro__lines bottom" aria-hidden="true">
