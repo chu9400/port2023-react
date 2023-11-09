@@ -115,7 +115,7 @@ export const portText = [
   },
   {
       num: "04",
-      title: "작업 예정",
+      title: "Nuxt.js를 이용한 웹 페이지 제작",
       desc: "작업 예정",
       img: port04,
       code: "/",
