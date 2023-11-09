@@ -107,11 +107,11 @@ export const portText = [
   {
       num: "03",
       title: "인터렉티브 쇼핑몰 사이트",
-      desc: "작업 중",
+      desc: "이 프로젝트는 외국 기업의 쇼핑몰을 소개하는 감각적인 디자인 웹사이트를 제작하는 프로젝트입니다. 기존의 애니메이션 효과를 GSAP로 변경하여 더 화려하고 생산적인 코드로 수정했습니다. 작업을 진행하면서 새로운 HTML 태그와 GSAP 라이브러리의 숙련도를 향상시켜 의미 있는 프로젝트였습니다.",
       img: port03,
-      code: "/",
-      view: "/",
-      name: "최한울 포트폴리오",
+      code: "https://github.com/chu9400/2023-qoo10_move",
+      view: "https://chu9400-qoo10move.netlify.app/",
+      name: "최한울 쇼핑몰 소개 포트폴리오",
   },
   {
       num: "04",
